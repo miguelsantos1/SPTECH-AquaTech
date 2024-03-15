@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 3px solid #32b9cd;
+    padding: 2rem;
+}
+
+
+header h1 {
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+    color: #e3b062;
+}
